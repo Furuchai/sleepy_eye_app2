@@ -4,6 +4,6 @@ numpy
 opencv-contrib-python
 opencv-python
 Pillow 
-playsound == 1.2.2
+playsound==1.2.2
 streamlit 
 streamlit-webrtc
