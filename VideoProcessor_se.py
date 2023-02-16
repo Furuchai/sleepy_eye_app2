@@ -83,7 +83,7 @@ class face_mesh_VideoProcessor:
                         cv2.putText(img, "slpy_frame:{:.0f} ".format(self.slpy_frame), 
                             (10, int(height/2)), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2, cv2.LINE_AA) 
                         if self.slpy_frame > self.judge_time:
-                            playsound('bow.mp3')
+                    #        playsound('bow.mp3')
                             cv2.putText(img,"Wake Up!!", 
                                 (int(width/2), int(height/2)), cv2.FONT_HERSHEY_PLAIN, 3, (0, 0, 255), 2, cv2.LINE_AA)                           
                     else:
