@@ -1,0 +1,9 @@
+av
+mediapipe
+numpy 
+opencv-contrib-python
+opencv-python
+Pillow 
+playsound 
+streamlit 
+streamlit-webrtc
