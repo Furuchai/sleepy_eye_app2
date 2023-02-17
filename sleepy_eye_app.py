@@ -5,6 +5,7 @@ from PIL import Image
 
 
 st.title("Aren't you asleep?")
+st.write("STARTボタンを押し、動画内の音声をミュートにして下さい")
 image = Image.open('judge_eye.jpeg')
 
 video_processor_factory = VideoProcessor_se.face_mesh_VideoProcessor
